@@ -1,0 +1,10 @@
+genome FD
+trackDb FD/trackDb.txt
+groups FD/groups.txt
+description FD
+twoBitPath FD/FD.2bit
+organism FD
+defaultPos 1
+orderKey 4500
+scientificName FD
+htmlPath FD/description.html

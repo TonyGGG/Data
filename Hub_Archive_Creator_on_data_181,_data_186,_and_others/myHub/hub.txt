@@ -1,0 +1,6 @@
+hub gonrampFd
+shortLabel FD
+longLabel FD
+genomesFile genomes.txt
+email 303120291@qq.com
+descriptionUrl FD.html

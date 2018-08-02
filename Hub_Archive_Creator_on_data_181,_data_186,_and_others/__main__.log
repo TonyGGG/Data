@@ -1,0 +1,98 @@
+DEBUG:root:#### Welcome in HubArchiveCreator Debug Mode ####
+
+DEBUG:root:Calling faToTwoBit:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling twoBitInfo:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling sort:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_178.dat
+DEBUG:root:data_value: {u'long_label': u'Linput', u'name': u'LDInput.sorted.bigwig', u'database': u'', u'track_color': u'#7030a0', u'group_name': u'Inp', u'order_index': u'20'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_179.dat
+DEBUG:root:data_value: {u'long_label': u'Sinput', u'name': u'SDInput.sorted.bigwig', u'database': u'', u'track_color': u'#002060', u'group_name': u'Inp', u'order_index': u'21'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_181.dat
+DEBUG:root:data_value: {u'long_label': u'L2_1', u'name': u'LDIP2_1.sorted.bigwig', u'database': u'', u'track_color': u'#f2dcdb', u'group_name': u'L', u'order_index': u'30'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_182.dat
+DEBUG:root:data_value: {u'long_label': u'L2_2', u'name': u'LDIP2_2.sorted.bigwig', u'database': u'', u'track_color': u'#e5b9b7', u'group_name': u'L', u'order_index': u'31'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_183.dat
+DEBUG:root:data_value: {u'long_label': u'L3_1', u'name': u'LDIP3_1.sorted.bigwig', u'database': u'', u'track_color': u'#d99694', u'group_name': u'L', u'order_index': u'32'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_184.dat
+DEBUG:root:data_value: {u'long_label': u'L3_2', u'name': u'LDIP3_2.sorted.bigwig', u'database': u'', u'track_color': u'#953734', u'group_name': u'L', u'order_index': u'33'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_186.dat
+DEBUG:root:data_value: {u'long_label': u'L122', u'name': u'LDIP122.sorted.bigwig', u'database': u'', u'track_color': u'#632423', u'group_name': u'L', u'order_index': u'34'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_185.dat
+DEBUG:root:data_value: {u'long_label': u'L33', u'name': u'LDIP33.sorted.bigwig', u'database': u'', u'track_color': u'#c00000', u'group_name': u'L', u'order_index': u'35'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_180.dat
+DEBUG:root:data_value: {u'long_label': u'Lall', u'name': u'LDall.sorted.bigwig', u'database': u'', u'track_color': u'#e36c09', u'group_name': u'L', u'order_index': u'36'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_188.dat
+DEBUG:root:data_value: {u'long_label': u'S2', u'name': u'SDIP2.sorted.bigwig', u'database': u'', u'track_color': u'#ebf1dd', u'group_name': u'S', u'order_index': u'40'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_189.dat
+DEBUG:root:data_value: {u'long_label': u'S3', u'name': u'SDIP3.sorted.bigwig', u'database': u'', u'track_color': u'#d7e3bc', u'group_name': u'S', u'order_index': u'41'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_190.dat
+DEBUG:root:data_value: {u'long_label': u'S4', u'name': u'SDIP4.sorted.bigwig', u'database': u'', u'track_color': u'#c3d69b', u'group_name': u'S', u'order_index': u'42'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_191.dat
+DEBUG:root:data_value: {u'long_label': u'S13', u'name': u'SDIP13.sorted.bigwig', u'database': u'', u'track_color': u'#76923c', u'group_name': u'S', u'order_index': u'43'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_192.dat
+DEBUG:root:data_value: {u'long_label': u'S24', u'name': u'SDIP24.sorted.bigwig', u'database': u'', u'track_color': u'#4f6128', u'group_name': u'S', u'order_index': u'44'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_187.dat
+DEBUG:root:data_value: {u'long_label': u'Sall', u'name': u'SDall.sorted.bigwig', u'database': u'', u'track_color': u'#00b050', u'group_name': u'S', u'order_index': u'45'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_25.dat
+DEBUG:root:data_value: {u'long_label': u'Transcripts', u'name': u'Oryza_sativa.IRGSP-1.0.38.gff3', u'database': u'', u'track_color': u'#000000', u'group_name': u'Genes', u'order_index': u'10'}
+DEBUG:root:Calling gff3ToGenePred:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling genePredToBigGenePred:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling sort:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:sorted_bed_file_name: /home/tianwei/Galaxy/galaxy/database/tmp/tmps1et18.sorted.bigGenePred
+DEBUG:root:chrom_sizes_file_name: /home/tianwei/Galaxy/galaxy/database/tmp/tmpVpoUpf.chrom.sizes
+DEBUG:root:big_bed_file_name: /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/tracks/Oryza_sativa.IRGSP-1.0.38.gff3.bb
+DEBUG:root:typeOption: bed12+8
+DEBUG:root:autoSql: /home/tianwei/Galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/rmarenco/hubarchivecreator/cdd33c5c8ac1/hubarchivecreator/bigGenePred.as
+DEBUG:root:tab option: True
+DEBUG:root:Calling bedToBigBed:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:----- End of all_datatype_dictionary processing -----
+DEBUG:root:all_datatype_ordered_dictionary keys are: [<Gff3.Gff3 object at 0x7f3c686d9390>, <BigWig.BigWig object at 0x7f3c686d9b50>, <BigWig.BigWig object at 0x7f3c686d9990>, <BigWig.BigWig object at 0x7f3c686d9a90>, <BigWig.BigWig object at 0x7f3c686d9e50>, <BigWig.BigWig object at 0x7f3c686d9d50>, <BigWig.BigWig object at 0x7f3c686d9c50>, <BigWig.BigWig object at 0x7f3c686d91d0>, <BigWig.BigWig object at 0x7f3c686d93d0>, <BigWig.BigWig object at 0x7f3c686e4190>, <BigWig.BigWig object at 0x7f3c686e4290>, <BigWig.BigWig object at 0x7f3c686d9f50>, <BigWig.BigWig object at 0x7f3c686d9710>, <BigWig.BigWig object at 0x7f3c686d9910>, <BigWig.BigWig object at 0x7f3c686d9490>, <BigWig.BigWig object at 0x7f3c686d92d0>]
+DEBUG:root:----- Beginning of Track adding processing -----
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group Genes
+DEBUG:root:We just added track gonramp_Oryza_sativa_IRGSP_1_0_38_gff3_bb (in group genes)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group L
+DEBUG:root:We just added track gonramp_LDIP2_1_sorted_bigwig_bigwig (in group l)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group Inp
+DEBUG:root:We just added track gonramp_LDInput_sorted_bigwig_bigwig (in group inp)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group Inp
+DEBUG:root:We just added track gonramp_SDInput_sorted_bigwig_bigwig (in group inp)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group L
+DEBUG:root:We just added track gonramp_LDIP3_2_sorted_bigwig_bigwig (in group l)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group L
+DEBUG:root:We just added track gonramp_LDIP3_1_sorted_bigwig_bigwig (in group l)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group L
+DEBUG:root:We just added track gonramp_LDIP2_2_sorted_bigwig_bigwig (in group l)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group S
+DEBUG:root:We just added track gonramp_SDall_sorted_bigwig_bigwig (in group s)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group S
+DEBUG:root:We just added track gonramp_SDIP4_sorted_bigwig_bigwig (in group s)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group L
+DEBUG:root:We just added track gonramp_LDall_sorted_bigwig_bigwig (in group l)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group S
+DEBUG:root:We just added track gonramp_SDIP2_sorted_bigwig_bigwig (in group s)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group L
+DEBUG:root:We just added track gonramp_LDIP122_sorted_bigwig_bigwig (in group l)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group S
+DEBUG:root:We just added track gonramp_SDIP13_sorted_bigwig_bigwig (in group s)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group L
+DEBUG:root:We just added track gonramp_LDIP33_sorted_bigwig_bigwig (in group l)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group S
+DEBUG:root:We just added track gonramp_SDIP3_sorted_bigwig_bigwig (in group s)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/190/dataset_197_files/myHub/FD/groups.txt the group S
+DEBUG:root:We just added track gonramp_SDIP24_sorted_bigwig_bigwig (in group s)
+DEBUG:root:----- End of Track adding processing -----
+DEBUG:root:#### End of HubArchiveCreator Debug Mode: Bye! ####
