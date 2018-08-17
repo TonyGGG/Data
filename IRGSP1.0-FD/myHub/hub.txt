@@ -1,0 +1,6 @@
+hub gonrampIrgsp1.0
+shortLabel IRGSP1.0
+longLabel IRGSP1.0
+genomesFile genomes.txt
+email 303120291@qq.com
+descriptionUrl IRGSP1.0.html

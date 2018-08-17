@@ -1,0 +1,96 @@
+
+track gonramp_Oryza_sativa_IRGSP_1_0_38_gff3_bb
+longLabel Transcript
+shortLabel Transcript
+bigDataUrl tracks/Oryza_sativa.IRGSP-1.0.38.gff3.bb
+type bigGenePred
+visibility dense
+thickDrawItem off
+priority 10
+color 0,0,0
+group transcript
+searchIndex name
+
+track gonramp_LDIP122_sorted_bigwig_bigwig
+longLabel LD122
+shortLabel LD122
+bigDataUrl tracks/LDIP122.sorted.bigwig.bigwig
+visibility full
+priority 20
+color 242,220,219
+group ld
+type bigWig 0.000000 1430.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_LDIP33_sorted_bigwig_bigwig
+longLabel LD33
+shortLabel LD33
+bigDataUrl tracks/LDIP33.sorted.bigwig.bigwig
+visibility full
+priority 21
+color 229,185,183
+group ld
+type bigWig 0.000000 2071.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_LDall_sorted_bigwig_bigwig
+longLabel LDall
+shortLabel LDall
+bigDataUrl tracks/LDall.sorted.bigwig.bigwig
+visibility full
+priority 22
+color 192,80,77
+group ld
+type bigWig 0.000000 3358.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_SDall_sorted_bigwig_bigwig
+longLabel SDall
+shortLabel SDall
+bigDataUrl tracks/SDall.sorted.bigwig.bigwig
+visibility full
+priority 32
+color 155,187,89
+group sd
+type bigWig 0.000000 1753.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_SDIP24_sorted_bigwig_bigwig
+longLabel SD24
+shortLabel SD24
+bigDataUrl tracks/SDIP24.sorted.bigwig.bigwig
+visibility full
+priority 31
+color 215,227,188
+group sd
+type bigWig 0.000000 962.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+
+
+track gonramp_SDIP13_sorted_bigwig_bigwig
+longLabel SD13
+shortLabel SD13
+bigDataUrl tracks/SDIP13.sorted.bigwig.bigwig
+visibility full
+priority 30
+color 235,241,221
+group sd
+type bigWig 0.000000 929.000000
+autoScale on
+maxHeightPixels 100:32:8
+windowingFunction mean+whiskers
+

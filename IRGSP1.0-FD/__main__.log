@@ -1,0 +1,62 @@
+DEBUG:root:#### Welcome in HubArchiveCreator Debug Mode ####
+
+DEBUG:root:Calling faToTwoBit:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling twoBitInfo:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling sort:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_186.dat
+DEBUG:root:data_value: {u'long_label': u'LD122', u'name': u'LDIP122.sorted.bigwig', u'database': u'', u'track_color': u'#f2dcdb', u'group_name': u'LD', u'order_index': u'20'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_185.dat
+DEBUG:root:data_value: {u'long_label': u'LD33', u'name': u'LDIP33.sorted.bigwig', u'database': u'', u'track_color': u'#e5b9b7', u'group_name': u'LD', u'order_index': u'21'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_180.dat
+DEBUG:root:data_value: {u'long_label': u'LDall', u'name': u'LDall.sorted.bigwig', u'database': u'', u'track_color': u'#c0504d', u'group_name': u'LD', u'order_index': u'22'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_191.dat
+DEBUG:root:data_value: {u'long_label': u'SD13', u'name': u'SDIP13.sorted.bigwig', u'database': u'', u'track_color': u'#ebf1dd', u'group_name': u'SD', u'order_index': u'30'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_192.dat
+DEBUG:root:data_value: {u'long_label': u'SD24', u'name': u'SDIP24.sorted.bigwig', u'database': u'', u'track_color': u'#d7e3bc', u'group_name': u'SD', u'order_index': u'31'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_187.dat
+DEBUG:root:data_value: {u'long_label': u'SDall', u'name': u'SDall.sorted.bigwig', u'database': u'', u'track_color': u'#9bbb59', u'group_name': u'SD', u'order_index': u'32'}
+DEBUG:root:input_false_path: /home/tianwei/Galaxy/galaxy/database/files/000/dataset_25.dat
+DEBUG:root:data_value: {u'long_label': u'Transcript', u'name': u'Oryza_sativa.IRGSP-1.0.38.gff3', u'database': u'', u'track_color': u'#000000', u'group_name': u'Transcript', u'order_index': u'10'}
+DEBUG:root:Calling gff3ToGenePred:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling genePredToBigGenePred:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:Calling sort:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:sorted_bed_file_name: /home/tianwei/Galaxy/galaxy/database/tmp/tmpAl4pjR.sorted.bigGenePred
+DEBUG:root:chrom_sizes_file_name: /home/tianwei/Galaxy/galaxy/database/tmp/tmpqebma2.chrom.sizes
+DEBUG:root:big_bed_file_name: /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/tracks/Oryza_sativa.IRGSP-1.0.38.gff3.bb
+DEBUG:root:typeOption: bed12+8
+DEBUG:root:autoSql: /home/tianwei/Galaxy/shed_tools/toolshed.g2.bx.psu.edu/repos/rmarenco/hubarchivecreator/cdd33c5c8ac1/hubarchivecreator/bigGenePred.as
+DEBUG:root:tab option: True
+DEBUG:root:Calling bedToBigBed:
+DEBUG:root:---------
+DEBUG:root:	
+DEBUG:root:----- End of all_datatype_dictionary processing -----
+DEBUG:root:all_datatype_ordered_dictionary keys are: [<Gff3.Gff3 object at 0x7f7a71a82f10>, <BigWig.BigWig object at 0x7f7a71a82ad0>, <BigWig.BigWig object at 0x7f7a71a82bd0>, <BigWig.BigWig object at 0x7f7a71a82cd0>, <BigWig.BigWig object at 0x7f7a71a82fd0>, <BigWig.BigWig object at 0x7f7a71a82ed0>, <BigWig.BigWig object at 0x7f7a71a82dd0>]
+DEBUG:root:----- Beginning of Track adding processing -----
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/groups.txt the group Transcript
+DEBUG:root:We just added track gonramp_Oryza_sativa_IRGSP_1_0_38_gff3_bb (in group transcript)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/groups.txt the group LD
+DEBUG:root:We just added track gonramp_LDIP122_sorted_bigwig_bigwig (in group ld)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/groups.txt the group LD
+DEBUG:root:We just added track gonramp_LDIP33_sorted_bigwig_bigwig (in group ld)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/groups.txt the group LD
+DEBUG:root:We just added track gonramp_LDall_sorted_bigwig_bigwig (in group ld)
+DEBUG:root:We just added in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/groups.txt the group SD
+DEBUG:root:We just added track gonramp_SDall_sorted_bigwig_bigwig (in group sd)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/groups.txt the group SD
+DEBUG:root:We just added track gonramp_SDIP24_sorted_bigwig_bigwig (in group sd)
+DEBUG:root:We DON'T add in /home/tianwei/Galaxy/galaxy/database/jobs_directory/000/196/dataset_203_files/myHub/IRGSP1.0/groups.txt the group SD
+DEBUG:root:We just added track gonramp_SDIP13_sorted_bigwig_bigwig (in group sd)
+DEBUG:root:----- End of Track adding processing -----
+DEBUG:root:#### End of HubArchiveCreator Debug Mode: Bye! ####
